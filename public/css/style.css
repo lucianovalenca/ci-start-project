@@ -1,0 +1,24 @@
+/*!
+ * Project v0.1 (http://www.ci-starter-project.com)
+ * Copyright 2011-2015
+ */
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.page-content {
+  padding-top: 50px;
+}
+/* Login */
+.login-panel {
+  margin: 0 auto;
+  width: 400px;
+}
+/* Common */
+/* Alert boxes */
+.alert-container {
+  margin: 20px 0;
+}

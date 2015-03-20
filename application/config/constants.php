@@ -1,6 +1,33 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
+/*
+|--------------------------------------------------------------------------
+| Custom
+|--------------------------------------------------------------------------
+|
+*/
+
+// Project name
+define('MY_PROJECT_NAME', 'CI Starter Project');
+
+// Assets
+if($_SERVER["REMOTE_ADDR"] == '127.0.0.1')
+{
+	define('MY_STATIC_FILES_PATH', 'http://localhost/ci-start-project/public/');
+}
+else
+{
+	define('MY_STATIC_FILES_PATH', 'https://ci-start-project.s3.amazonaws.com/');
+}
+
+// Clean cache for static files
+define('MY_STATIC_VERSION', '0.1');
+
+// Default title
+define('MY_DEFAULT_TITLE', ' - ' . MY_PROJECT_NAME);
+
 /*
 |--------------------------------------------------------------------------
 | File and Directory Modes
