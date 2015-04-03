@@ -59,7 +59,9 @@
 
 	function menu_language_style($language)
 	{
-		return '';
+		$CI =& get_instance();
+		$session_language = $CI->session->userdata('language');
+		return ($language == $session_language) ? 'active' : '';
 	}
 
 	/*

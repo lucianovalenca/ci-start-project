@@ -8,4 +8,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['languages'] = array('en_US', 'pt_BR');
+$config['languages'] = array('en_US' => 'English', 'pt_BR' => 'Português');

@@ -10,23 +10,9 @@ class Language extends CI_Controller {
 
 	public function set($language)
 	{
-		if(in_array($language, $this->config->item('languages')))
-		{
-			// Save to session
+
+			// Save to session. Autoloaded library Language.php will get the session value and change locale.
 			$this->session->set_userdata('language', $language);
-
-			//$language = $language;
-			putenv("LANG=$language"); 
-			setlocale(LC_ALL, $language);
-
-			// Set the text domain as 'messages'
-			$domain = 'messages';
-			bindtextdomain($domain, $_SERVER['DOCUMENT_ROOT'] . "/ci-start-project/application/language/locale/"); 
-			textdomain($domain);
-
-			echo $language . '<br/>';
-			echo _("A string to be translated would go here");
-			exit;
 
 			// Redirect back to referral page
 			$this->load->library('user_agent');
@@ -38,7 +24,7 @@ class Language extends CI_Controller {
 		    {
 		    	redirect(site_url('home'));
 		    }
-		}
+
 	}
 
 }

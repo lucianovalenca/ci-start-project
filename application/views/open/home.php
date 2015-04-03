@@ -24,8 +24,6 @@
                 <p class="lead"><?php echo _('Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.'); ?></p>
             </div>
 
-            <h1><?php echo $this->session->userdata('language'); ?></h1>
-
         </div><!-- /.container -->
 
         <?php $this->load->view('open/inc/footer_scripts'); ?>

@@ -20,26 +20,6 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		
-		//die($_SERVER['DOCUMENT_ROOT']);
-
-		// I18N support information here
-		$language = 'en_US';
-		putenv("LANG=$language"); 
-		setlocale(LC_ALL, $language);
-
-		// Set the text domain as 'messages'
-		$domain = 'messages';
-		$path = APPPATH . "/language/locale/";
-
-		bindtextdomain($domain, $path); 
-		textdomain($domain);
-
-		echo $language . '<br />';
-
-		echo _("A string to be translated would go here");
-		exit;
-
 		$this->load->view('open/home');
 	}
 }
