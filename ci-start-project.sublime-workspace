@@ -519,22 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "application/controllers/Home.php",
-			"settings":
-			{
-				"buffer_size": 1197,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/controllers/Language.php",
-			"settings":
-			{
-				"buffer_size": 976,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -568,19 +552,23 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/other/php-gettext-example/index.php",
+		"/C/wamp/www/ci-start-project/application/models/Login_model.php",
+		"/C/wamp/www/ci-start-project/application/helpers/my_general_helper.php",
 		"/C/wamp/www/ci-start-project/application/views/open/home.php",
-		"/C/wamp/www/ci-start-project/application/controllers/Language.php",
-		"/C/wamp/www/ci-start-project/application/controllers/Po.php",
+		"/C/wamp/www/portal-do-idioma/application/config/autoload.php",
 		"/C/wamp/www/ci-start-project/application/libraries/Locale.php",
 		"/C/wamp/www/ci-start-project/application/config/autoload.php",
+		"/C/wamp/www/ci-start-project/application/config/languages.php",
+		"/C/wamp/www/ci-start-project/application/controllers/Language.php",
+		"/C/Users/Luciano/Desktop/tonbak-master/libraries/Locale.php",
+		"/C/wamp/www/ci-start-project/application/controllers/Home.php",
+		"/C/wamp/www/other/php-gettext-example/index.php",
+		"/C/wamp/www/ci-start-project/application/controllers/Po.php",
 		"/C/wamp/www/ci-start-project/application/config/gettext.php",
 		"/C/wamp/www/teste/index.php",
 		"/C/wamp/www/teste/teste.php",
 		"/C/Users/Luciano/AppData/Local/Temp/scp27390/var/www/html/lucianovalenca.com.br/demos/ci-start-project/application/controllers/Account.php",
-		"/C/Users/Luciano/Desktop/tonbak-master/libraries/Locale.php",
 		"/C/Users/Luciano/Desktop/tonbak-master/controllers/po.php",
-		"/C/wamp/www/ci-start-project/application/helpers/my_general_helper.php",
 		"/C/wamp/www/ci-start-project/application/views/open/inc/navbar.php",
 		"/C/wamp/www/ci-start-project/application/config/routes.php",
 		"/C/wamp/www/ci-start-project/application/libraries/Gettext.php",
@@ -588,7 +576,6 @@
 		"/C/Users/Luciano/Desktop/constants.php",
 		"/C/wamp/www/ci-start-project/application/config/config.php",
 		"/C/Users/Luciano/Desktop/codeigniter-gettext-master/config/gettext.php",
-		"/C/wamp/www/ci-start-project/application/config/languages.php",
 		"/C/wamp/www/ci-start-project/application/controllers/Dashboard.php",
 		"/C/wamp/www/ci-start-project/public/js/webapp.js",
 		"/C/wamp/www/ci-start-project/application/models/user_model.php",
@@ -692,10 +679,7 @@
 		"/C/wamp/www/portal-do-idioma/application/controllers/upload.php",
 		"/C/wamp/www/portal-do-idioma/application/models/upload_model.php",
 		"/C/wamp/www/portal-do-idioma/application/views/logged/profile.php",
-		"/C/wamp/www/portal-do-idioma/application/models/user_model.php",
-		"/C/wamp/www/portal-do-idioma/application/views/logged/inc/header.php",
-		"/C/Users/Luciano/Desktop/head.phtml",
-		"/C/Users/Luciano/Desktop/header.phtml"
+		"/C/wamp/www/portal-do-idioma/application/models/user_model.php"
 	],
 	"find":
 	{
@@ -706,6 +690,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"C:\\wamp\\www\\ci-start-project\\application",
 			"C:\\wamp\\www\\portal-do-idioma\\application",
 			"C:\\wamp\\www\\portal-do-idioma",
 			"C:\\wamp\\www\\portal-do-idioma\\application",
@@ -728,6 +713,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"get_user_session",
+			"get_language",
+			"var",
 			"yourdomain.com",
 			"bindtextdomain",
 			"config",
@@ -852,10 +840,7 @@
 			"LOG_FILE",
 			"session",
 			"encri",
-			"userdata('image')",
-			"userdata('firstName')",
-			"userdata('email')",
-			"userdata('userId')"
+			"userdata('image')"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -881,63 +866,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "application/controllers/Home.php",
-					"settings":
-					{
-						"buffer_size": 1197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1146,
-								1146
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "application/controllers/Language.php",
-					"settings":
-					{
-						"buffer_size": 976,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								669,
-								669
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
