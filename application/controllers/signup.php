@@ -69,7 +69,7 @@ class Signup extends CI_Controller {
 						{
 							// Login and redirect
 							$this->load->model('login_model');
-							$this->login_model->login($userId);
+							$this->login_model->login(array('userId' => $userId));
 							redirect($this->config->item('login_after_register_page', 'general_settings'));
 						}
 						else
