@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Starter Template for Bootstrap<?php echo MY_DEFAULT_TITLE; ?></title>
+        <title><?php echo _('Starter Template for Bootstrap'); ?><?php echo MY_DEFAULT_TITLE; ?></title>
 
         <?php $this->load->view('open/inc/head'); ?>
     </head>
@@ -20,9 +20,11 @@
         <div class="container">
 
             <div class="starter-template">
-                <h1>Bootstrap starter template</h1>
-                <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+                <h1><?php echo _('Bootstrap starter template'); ?></h1>
+                <p class="lead"><?php echo _('Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.'); ?></p>
             </div>
+
+            <h1><?php echo $this->session->userdata('language'); ?></h1>
 
         </div><!-- /.container -->
 

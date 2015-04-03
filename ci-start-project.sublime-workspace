@@ -520,35 +520,19 @@
 	"buffers":
 	[
 		{
-			"file": "application/controllers/account.php",
+			"file": "application/controllers/Home.php",
 			"settings":
 			{
-				"buffer_size": 4123,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/css/style.less",
-			"settings":
-			{
-				"buffer_size": 359,
+				"buffer_size": 1197,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "application/models/user_model.php",
+			"file": "application/controllers/Language.php",
 			"settings":
 			{
-				"buffer_size": 1264,
+				"buffer_size": 976,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/js/webapp.js",
-			"settings":
-			{
-				"buffer_size": 2136,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -584,32 +568,52 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/other/php-gettext-example/index.php",
+		"/C/wamp/www/ci-start-project/application/views/open/home.php",
+		"/C/wamp/www/ci-start-project/application/controllers/Language.php",
+		"/C/wamp/www/ci-start-project/application/controllers/Po.php",
+		"/C/wamp/www/ci-start-project/application/libraries/Locale.php",
+		"/C/wamp/www/ci-start-project/application/config/autoload.php",
+		"/C/wamp/www/ci-start-project/application/config/gettext.php",
+		"/C/wamp/www/teste/index.php",
+		"/C/wamp/www/teste/teste.php",
+		"/C/Users/Luciano/AppData/Local/Temp/scp27390/var/www/html/lucianovalenca.com.br/demos/ci-start-project/application/controllers/Account.php",
+		"/C/Users/Luciano/Desktop/tonbak-master/libraries/Locale.php",
+		"/C/Users/Luciano/Desktop/tonbak-master/controllers/po.php",
+		"/C/wamp/www/ci-start-project/application/helpers/my_general_helper.php",
+		"/C/wamp/www/ci-start-project/application/views/open/inc/navbar.php",
+		"/C/wamp/www/ci-start-project/application/config/routes.php",
+		"/C/wamp/www/ci-start-project/application/libraries/Gettext.php",
+		"/C/Users/Luciano/Desktop/database.php",
+		"/C/Users/Luciano/Desktop/constants.php",
+		"/C/wamp/www/ci-start-project/application/config/config.php",
+		"/C/Users/Luciano/Desktop/codeigniter-gettext-master/config/gettext.php",
+		"/C/wamp/www/ci-start-project/application/config/languages.php",
+		"/C/wamp/www/ci-start-project/application/controllers/Dashboard.php",
+		"/C/wamp/www/ci-start-project/public/js/webapp.js",
+		"/C/wamp/www/ci-start-project/application/models/user_model.php",
+		"/C/wamp/www/ci-start-project/public/css/style.less",
+		"/C/wamp/www/ci-start-project/application/controllers/account.php",
+		"/C/wamp/www/portal-do-idioma/.htaccess",
 		"/C/wamp/www/ci-start-project/application/views/restricted/account/account.php",
 		"/C/wamp/www/ci-start-project/application/views/open/login.php",
-		"/C/wamp/www/ci-start-project/application/helpers/my_general_helper.php",
 		"/C/wamp/www/ci-start-project/application/controllers/signup.php",
-		"/C/wamp/www/ci-start-project/application/models/user_model.php",
-		"/C/wamp/www/ci-start-project/public/js/webapp.js",
 		"/C/wamp/www/ci-start-project/application/controllers/login.php",
 		"/C/wamp/www/ci-start-project/application/models/master_model.php",
 		"/C/wamp/www/ci-start-project/application/views/open/signup.php",
 		"/C/wamp/www/ci-start-project/application/controllers/api.php",
 		"/C/wamp/www/ci-start-project/application/views/restricted/inc/navbar.php",
 		"/C/wamp/www/ci-start-project/application/config/general_settings.php",
-		"/C/wamp/www/ci-start-project/application/views/open/inc/navbar.php",
 		"/C/wamp/www/casamento-civil/public/js/casamentocivil.js",
 		"/C/wamp/www/ci-start-project/application/models/login_model.php",
 		"/C/wamp/www/ci-start-project/application/views/open/inc/footer_scripts.php",
-		"/C/wamp/www/ci-start-project/application/config/routes.php",
 		"/C/wamp/www/casamento-civil/application/config/routes.php",
 		"/C/wamp/www/ci-start-project/application/controllers/dashboard.php",
 		"/C/wamp/www/ci-start-project/application/views/restricted/dashboard.php",
-		"/C/wamp/www/ci-start-project/application/config/autoload.php",
 		"/C/wamp/www/casamento-civil/application/models/master_model.php",
 		"/C/wamp/www/casamento-civil/application/core/MY_Controller.php",
 		"/C/wamp/www/casamento-civil/application/views/pages/inc/main_menu.php",
 		"/C/wamp/www/ci-start-project/application/helpers/my_data_validation_helper.php",
-		"/C/wamp/www/ci-start-project/public/css/style.less",
 		"/C/wamp/www/casamento-civil/application/config/autoload.php",
 		"/C/wamp/www/ci-start-project/application/controllers/user.php",
 		"/C/wamp/www/casamento-civil/application/controllers/user.php",
@@ -617,14 +621,10 @@
 		"/C/wamp/www/casamento-civil/application/controllers/signup.php",
 		"/C/wamp/www/ci-start-project/application/config/migration.php",
 		"/C/wamp/www/ci-start-project/application/views/open/forgot_password.php",
-		"/C/wamp/www/ci-start-project/application/controllers/account.php",
 		"/C/wamp/www/ci-start-project/.htaccess",
 		"/C/wamp/www/portal-do-idioma/application/config/config.php",
-		"/C/wamp/www/portal-do-idioma/.htaccess",
-		"/C/wamp/www/ci-start-project/application/config/config.php",
 		"/C/wamp/www/ci-start-project/application/views/restricted/change_password.php",
 		"/C/wamp/www/ci-start-project/application/config/database.php",
-		"/C/wamp/www/ci-start-project/application/views/open/home.php",
 		"/C/wamp/www/portal-do-idioma/booking/application/controllers/appointments.php",
 		"/C/wamp/www/portal-do-idioma/booking/application/controllers/backend_api.php",
 		"/C/wamp/www/portal-do-idioma/booking/application/controllers/backend.php",
@@ -695,23 +695,7 @@
 		"/C/wamp/www/portal-do-idioma/application/models/user_model.php",
 		"/C/wamp/www/portal-do-idioma/application/views/logged/inc/header.php",
 		"/C/Users/Luciano/Desktop/head.phtml",
-		"/C/Users/Luciano/Desktop/header.phtml",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/Model/Resource/Eav/Mysql4/Setup.php",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/Model/Category/Attribute/Source/Block/Enabledisable.php",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/Model/Category/Attribute/Source/Block/Bg.php",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/Model/Category/Attribute/Source/Block/Ratio.php",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/Model/Category/Attribute/Source/Block/Menutype.php",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/Helper/Data.php",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/etc/system.xml",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/etc/config.xml",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/etc/adminhtml.xml",
-		"/C/Users/Luciano/Desktop/Theme_v1.7/app/code/local/Meigee/CategoriesEnhanced/Block/Html/Topmenu.php",
-		"/C/Users/Luciano/Desktop/local.xml",
-		"/G/Luciano/Desktop/Freelas/Arbasp/blog/wp-content/themes/simplr/header.php",
-		"/G/Luciano/Desktop/Freelas/Arbasp/public_html/index.php",
-		"/G/Luciano/Desktop/Freelas/Arbasp/public_html/includes/testeira.php",
-		"/G/Luciano/Desktop/Freelas/Arbasp/blog/wp-content/themes/simplr/index.php",
-		"/G/Luciano/Desktop/Freelas/Arbasp/blog/wp-content/themes/simplr/page.php"
+		"/C/Users/Luciano/Desktop/header.phtml"
 	],
 	"find":
 	{
@@ -744,6 +728,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"yourdomain.com",
+			"bindtextdomain",
+			"config",
+			"segment",
 			"type",
 			"style",
 			"alert",
@@ -867,11 +855,7 @@
 			"userdata('image')",
 			"userdata('firstName')",
 			"userdata('email')",
-			"userdata('userId')",
-			"userId",
-			"userdata('userId')",
-			"$this->session->userdata('userId')",
-			"check_login"
+			"userdata('userId')"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -902,50 +886,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "application/controllers/account.php",
+					"file": "application/controllers/Home.php",
 					"settings":
 					{
-						"buffer_size": 4123,
+						"buffer_size": 1197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								270,
-								270
+								1146,
+								1146
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1566.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/css/style.less",
-					"settings":
-					{
-						"buffer_size": 359,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								301,
-								301
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -954,19 +912,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "application/models/user_model.php",
+					"buffer": 1,
+					"file": "application/controllers/Language.php",
 					"settings":
 					{
-						"buffer_size": 1264,
+						"buffer_size": 976,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								836,
-								836
+								669,
+								669
 							]
 						],
 						"settings":
@@ -975,34 +933,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 289.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "public/js/webapp.js",
-					"settings":
-					{
-						"buffer_size": 2136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								916,
-								935
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 918.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

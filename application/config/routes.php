@@ -54,4 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['translate_uri_dashes'] = FALSE;
 
+$route['language/(:any)'] = 'language/set/$1';
+
 $route['logout'] = 'login/logout';

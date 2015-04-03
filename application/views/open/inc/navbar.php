@@ -16,6 +16,13 @@
                     <li class="<?php echo menu_segment_style('about'); ?>"><a href="<?php echo site_url('about'); ?>">About</a></li>
                     <li class="<?php echo menu_segment_style('signup'); ?>"><a href="<?php echo site_url('signup'); ?>">Signup</a></li>
                     <li class="<?php echo menu_segment_style('contact'); ?>"><a href="<?php echo site_url('contact'); ?>">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li class="<?php echo menu_language_style('en_US'); ?>"><a href="<?php echo site_url('language/en_US'); ?>">English</a></li>
+                        <li class="<?php echo menu_language_style('pt_BR'); ?>"><a href="<?php echo site_url('language/pt_BR'); ?>">Portuguese</a></li>
+                    </ul>
+                </li>
                 </ul>
 
                 <!-- login form -->

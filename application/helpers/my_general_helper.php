@@ -36,7 +36,7 @@
 	
 	/*
 	|--------------------------------------------------------------------------
-	| Last url segment
+	| Return menu style based on current url segment
 	|--------------------------------------------------------------------------
 	|
 	*/
@@ -48,6 +48,18 @@
 		// last segment
 		$url_segments = explode('/', $url);
 		return ($segment == end($url_segments)) ? 'active' : '';
+	}
+
+	/*
+	|--------------------------------------------------------------------------
+	| Return menu style based on current language
+	|--------------------------------------------------------------------------
+	|
+	*/
+
+	function menu_language_style($language)
+	{
+		return '';
 	}
 
 	/*

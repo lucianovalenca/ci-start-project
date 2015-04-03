@@ -104,7 +104,7 @@ $autoload['helper'] = array('url', 'my_general', 'my_data_validation');
 |
 */
 
-$autoload['config'] = array('general_settings');
+$autoload['config'] = array('general_settings', 'languages');
 
 
 /*
