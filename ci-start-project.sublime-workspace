@@ -552,8 +552,9 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/portal-do-idioma/application/views/open/home.php",
+		"/C/wamp/www/ci-start-project/application/controllers/Signup.php",
 		"/C/wamp/www/ci-start-project/application/models/Login_model.php",
+		"/C/wamp/www/portal-do-idioma/application/views/open/home.php",
 		"/C/wamp/www/ci-start-project/application/helpers/my_general_helper.php",
 		"/C/wamp/www/ci-start-project/application/views/open/home.php",
 		"/C/wamp/www/portal-do-idioma/application/config/autoload.php",
@@ -678,8 +679,7 @@
 		"/C/wamp/www/portal-do-idioma/application/controllers/teacher.php",
 		"/C/wamp/www/portal-do-idioma/application/models/event_model.php",
 		"/C/wamp/www/portal-do-idioma/application/controllers/upload.php",
-		"/C/wamp/www/portal-do-idioma/application/models/upload_model.php",
-		"/C/wamp/www/portal-do-idioma/application/views/logged/profile.php"
+		"/C/wamp/www/portal-do-idioma/application/models/upload_model.php"
 	],
 	"find":
 	{

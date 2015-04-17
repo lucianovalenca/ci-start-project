@@ -20,6 +20,8 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('open/home');
+		$this->load->library('facebook');
+		$data['facebookRedirectUrl'] = $this->facebook->login_url();
+		$this->load->view('open/home', $data);
 	}
 }
