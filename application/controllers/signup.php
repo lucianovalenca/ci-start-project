@@ -31,7 +31,7 @@ class Signup extends CI_Controller {
 			//$this->form_validation->set_rules('username', 'Username', 'trim|xss_clean');
 
 			// Password confirm field
-			if($this->config->item('confirm_password', 'general_settings'))
+			if(get_general_config('confirm_password'))
 			{
 				$this->form_validation->set_rules('password1', 'Password', 'required|matches[password2]');
 				$this->form_validation->set_rules('password2', 'Password Confirmation', 'required');
@@ -65,12 +65,12 @@ class Signup extends CI_Controller {
 					else
 					{
 
-						if($this->config->item('login_after_register', 'general_settings'))
+						if(get_general_config('login_after_register'))
 						{
 							// Login and redirect
 							$this->load->model('login_model');
 							$this->login_model->login(array('userId' => $userId));
-							redirect($this->config->item('login_after_register_page', 'general_settings'));
+							redirect(get_general_config('login_after_register_page'));
 						}
 						else
 						{
@@ -103,7 +103,7 @@ class Signup extends CI_Controller {
 		// Generate hash
 		$hash = generate_hash($data['password']);
 
-		$activated = ($this->config->item('auto_activate', 'general_settings')) ? '1' : '0';
+		$activated = (get_general_config('auto_activate')) ? '1' : '0';
 
 		// Check if fields are unique then save
 		if($this->user_model->check_exists(array('email' => $data['email'])))
@@ -120,7 +120,7 @@ class Signup extends CI_Controller {
 			));
 
 			// Auto-generate username
-			if($this->config->item('generate_username', 'general_settings'))
+			if(get_general_config('generate_username'))
 			{
 				$email_parts = explode('@', $data['email']);
 				$username = $email_parts[0] . '-' . $userId;

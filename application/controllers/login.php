@@ -48,7 +48,7 @@ class Login extends CI_Controller {
 				{
 					// Login successfully, redirect
 					$this->login_model->login(array('userId' => $userData['userId']));
-					redirect($this->config->item('logged_home', 'general_settings'));
+					redirect(get_general_config('logged_home'));
 				}
 				else
 				{
@@ -63,7 +63,15 @@ class Login extends CI_Controller {
 		}
 		else
 		{
-			$this->load->view('open/login');
+			$data = array();
+			
+			// Facebook login
+			if(get_general_config('facebook_login'))
+			{
+				$this->load->library('facebook');
+				$data['facebookRedirectUrl'] = $this->facebook->login_url();
+			}
+			$this->load->view('open/login', $data);
 		}
 	}
 
@@ -76,7 +84,7 @@ class Login extends CI_Controller {
 
 	public function facebook()
 	{
-		
+
 	}
 
 	/*

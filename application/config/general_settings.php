@@ -26,20 +26,9 @@ $config['general_settings']['facebook_login'] = true;
 |
 */
 
-/*
 $config['facebook']['api_id'] = 'YOUR APP ID';
 $config['facebook']['app_secret'] = 'YOUR APP SECRET';
 $config['facebook']['redirect_url'] = 'http://www.yourwebsite.com/login';
-$config['facebook']['permissions'] = array(
-  'email',
-  'user_location',
-  'user_birthday'
-);
-*/
-
-$config['facebook']['api_id'] = '1430917250555750';
-$config['facebook']['app_secret'] = '960ddd805e3f0c1dea37d9929de92ffe';
-$config['facebook']['redirect_url'] = 'http://www.portaldoidioma.com.br/login/facebook';
 $config['facebook']['permissions'] = array(
   'email',
   'user_location',

@@ -19,7 +19,7 @@
 
         <div class="container page-content">
 
-            <?php if($this->config->item('enable_self_signup', 'general_settings')): ?>
+            <?php if(get_general_config('enable_self_signup')): ?>
              <div class="login-panel panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">Sign up</h3>
@@ -45,7 +45,7 @@
                             <label for="inputPassword1">Password</label>
                             <input type="password" name="password1" class="form-control" id="inputPassword1" placeholder="Your password">
                         </div>
-                        <?php if($this->config->item('confirm_password', 'general_settings')): ?>
+                        <?php if(get_general_config('confirm_password')): ?>
                             <div class="form-group">
                                 <label for="inputPassword2">Repeat your password</label>
                                 <input type="password" name="password2" class="form-control" id="inputPassword2" placeholder="Repeat your password">

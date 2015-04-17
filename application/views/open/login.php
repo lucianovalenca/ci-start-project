@@ -23,12 +23,20 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">
                         <span>Sign In</span>
-                        <?php if($this->config->item('enable_self_signup', 'general_settings')): ?>
+                        <?php if(get_general_config('enable_self_signup')): ?>
                             <span class="pull-right"><a href="<?php echo site_url('signup'); ?>">Not registered yet?</a></span>
                         <?php endif; ?>
                     </h3>
                 </div>
                 <div class="panel-body">
+
+                    <?php if(get_general_config('facebook_login')): ?>
+                        <!-- facebook login -->
+                        <div class="facebook-login">
+                            <a href="<?php echo $facebookRedirectUrl; ?>">Facebook login</a>
+                        </div><hr />
+                        <!-- /facebook login -->
+                    <?php endif; ?>
 
                     <!-- login form -->
                     <form action="<?php echo site_url('login'); ?>" method="POST" role="form">

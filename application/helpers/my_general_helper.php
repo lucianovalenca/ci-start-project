@@ -106,6 +106,13 @@
 		return (isset($logged[$data])) ? $logged[$data] : '';
 	}
 
+
+	function get_general_config($config)
+	{
+		$CI =& get_instance();
+		return $CI->config->item($config, 'general_settings');
+	}
+
 	/*
 	|--------------------------------------------------------------------------
 	| Debug helpers
