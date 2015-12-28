@@ -12,8 +12,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // Project name
 define('MY_PROJECT_NAME', 'CI Starter Project');
 
+// Local or production enviroments
+$server_enviroment = ($_SERVER['REMOTE_ADDR'] == '127.0.0.1' || $_SERVER['REMOTE_ADDR'] == '::1' || $_SERVER['REMOTE_ADDR'] == 'localhost') ? 'localhost' : 'production';
+define('SERVER_ENVIROMENT', $server_enviroment);
+
 // Assets
-if($_SERVER["REMOTE_ADDR"] == '127.0.0.1')
+if(SERVER_ENVIROMENT == 'localhost')
 {
 	define('MY_STATIC_FILES_PATH', 'http://localhost/ci-start-project/public/');
 }
